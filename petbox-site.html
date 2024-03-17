@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---->
+    <!--Nome a ser apresentado na guia do navegador-->
+    <title>PetBox</title>
+    <!--Relaciona o arquivo HTML com o CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<!---->
+<!--cabeçalho da página-->    
+<header class="cabecalho"> 
+    <img class="cabecalho_logotipo" src="./imagens/logotipo.png" alt="logotipo">
+    <nav class="cabecalho_menu">
+<!--Link para referenciar dentro da página--> 
+    <a href="#nossa_equipe" class="cabecalho_menu_item">Nossa Equipe</a>
+    <a href="#adquirir" class="titulo-tabela">Como adquirir</a>
+
+    </nav> 
+</header> 
+
+<!---->
+<!--Parte principal da página--> 
+<main  class="Conteudo">
+    <aside>
+<!--Descrição do que é o conteúdo-->
+    <section class="conteudo_descricao">
+        <h1 class="conteudo_descricao_titulo">O PetBox está chegando para revolucionar o mundo dos Pets.</h1>
+        <h4 class="conteudo_descricao_texto"><p>Já imaginou receber mensalmente uma caixa recheada de produtos especiais para o seu querido pet?</p></h4>
+        <h5>O PetBox é um clube de assinatura para pets que envia todo mês um kit diferente com produtos selecionados e das melhores marcas do mercado. Junto com seu pet, você poderá experimentar produtos de excelente qualidade, como brinquedos, itens de higiene, ração, petiscos, utensílios e muito mais!</h5>
+        <p><strong>Inscreva-se</strong> na lista VIP e receba benefícios exclusivos para o seu Pet!</p>
+    </section>
+    </aside>
+     
+<!---->
+    <!--Formulário de Inscreva-se-->
+    <section class="formulario">
+         <div>  
+            <form class="formulario_texto">
+                <input class="formulario_item" type="text" placeholder="Nome Completo">
+                <input class="formulario_item" type="email"placeholder="E-mail">
+                <input class="formulario_item" type="text" placeholder="Endereço">
+                <input class="formulario_item" type="text" placeholder="Cidade">
+                <input class="formulario_item" type="text" placeholder="Estado">
+                <input class="formulario_item_botao" type="submit" placeholder="Inscreva-se">
+            </form>
+         </div>
+         <article>
+            <img class="produto_foto" src="./imagens/produto1.jpg" alt="produto1"> 
+            <img class="produto_foto" src="./imagens/produto2.jpg" alt="produto2">
+        </article>    
+    </section>
+
+<!--Tabela com as formas de aquisição da assinatura-->
+<section>
+    <h2 id="adquirir" class="titulo-tabela">Como adquirir</h2>
+       <table>
+    <div class="tabela">   
+        <tr>
+            <th>Pacote Avulso</th>
+            <th>Pacote Mensal</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>R$99,90</li>
+                    <li>5 a 8 produtos</li>
+                    <li>Sem renovação automática</li>
+                    <li>10% desconto na mudança para o plano mensal</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>R$89,90</li>
+                    <li>9 a 12 produtos</li>
+                    <li>Com renovação automática</li>
+                    <li>Cancelamento grátis</li>
+                </ul>
+            </td>
+         </tr>
+    </table>
+    </div>
+ </section>
+
+<!---->  
+<!--Dados da Equipe Responavel pela PetBox--> 
+<section class="equipe">
+    <h2 id="nossa_equipe">Nossa Equipe</h2> 
+    <div class="galeria">
+       <img class="equipe_foto" src="./imagens/equipe1.jpg" alt="Equipe1">
+       <div class="desc">Luisa - CEO</div>
+    </div>
+        
+    <div class="galeria">
+      <img class="equipe_foto" src="./imagens/equipe2.jpg" alt="Equipe2">
+      <div class="desc">Manuela - CFO</div>
+    </div>
+        
+    <div class="galeria">
+        <img class="equipe_foto" src="./imagens/equipe5.jpg" alt="Equipe3">
+        <div class="desc">Rafael - CMO</div>
+    </div>
+        
+    <div class="galeria">   
+        <img class="equipe_foto" src="./imagens/equipe4.jpg" alt="Equipe4"> 
+    <div class="desc">Rodrigo - CTO</div>
+    </div>
+</section>
+
+</main>
+
+    <!---->
+    <!--rodapé da página-->
+<footer class="rodape">
+    <h5>PetBox, Inc - Copywrith 2024</h5>
+    <img class="icone" src="./imagens/icone_face.png" alt="facebook">
+    <img class="icone" src="./imagens/icone_insta.png" alt="instagram">
+    <img class="icone" src="./imagens/icone_wpp.png" alt="whatsapp">
+ </footer>
+
+</body>
+</html>
