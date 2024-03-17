@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/*Estilização do corpo da página*/
+body{
+    background-color: #fdab41;    
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    padding: 15;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+/*Estilização do cabeçalho*/
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5px;
+    background-color: #fed59f;    
+}
+.cabecalho_logotipo{
+    height: 115px;
+    
+}  
+
+.cabecalho_menu_item{
+    display: inline-block;
+    margin: 10px;
+    color: purple;
+    font-weight: bold;
+}
+
+.titulo-tabela{
+    display: inline-block;
+    margin: 10px;
+    color: purple;
+    font-weight: bold;
+}
+
+.cabecalho_menu_item:hover{
+    color: #fdab41;
+    transition: 0.3s all;
+}
+
+.titulo-tabela:hover{
+    color: #fdab41;
+    transition: 0.3s all;
+}
+
+/*Estilização do conteúdo*/
+   
+.conteudo_descricao{
+    margin: 30px;
+    margin-block: 2px;
+    border-top: 0.4px solid;
+}
+
+.conteudo_descricao_titulo {
+    text-align: center;
+    
+}
+
+/*Estilização do formulário*/
+.formulario{
+    margin: 50px;
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.formulario_texto{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario_item{
+    height: 22px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 0.5px solid purple;
+
+   
+}
+.formulario_item_botao{
+    height: 22px;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    border-radius: 10px; 
+
+}
+
+.titulo-tabela {
+    margin: 30px;
+    margin-block: 2px;
+    }
+
+
+/*Estilização da foto do produto*/
+.produto_foto{
+    height: 200px;
+    border-radius: 15px;
+    border: 0.5px solid purple;
+    
+}
+
+/*Estilização dos dados da Equipe*/
+
+.equipe{
+    margin: 30px;
+    display:inline-block;
+}
+
+.galeria {
+    width: 150px;
+    margin: 5px;
+    /*border: 0.5px solid purple;*/
+    display:inline-block;  
+}
+
+.equipe_foto {
+    width: 150px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*Estilização do rodapé*/
+
+.rodape{
+    border-top: 0.4px solid;
+    text-align: center;
+}
+
+.icone {
+    width: 50px;
+    display: inline-block;
+    justify-content: center
+}
